@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.5in,top=0.5in,right=0.6in,bottom=0.5in]{geometry} % Document margins
+\usepackage{tabularx}
+
+\name{Matt Lim} % Your name
+
+\address{mlim@caltech.edu \\ (925)~$\cdot$~639~$\cdot$~4576
+    \\ 1200 E. California Blvd, Pasadena CA, 91126} % Your address
+
+%\address{122 Ardith Drive \\ Orinda, CA 94563} % Your secondary addess (optional)
+%\address{(925)~$\cdot$~639~$\cdot$~4576 \\ mlim@caltech.edu} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf California Institute of Technology} \hfill {\em 2013 - 2017} \\
+B.S. in Computer Science \smallskip \\
+Overall GPA: 3.93 \\
+Caltech Basketball team \\
+Relevant Coursework:
+\vspace{-5.0mm}
+\begin{minipage}{0.4\linewidth}
+\begin{itemize}
+\item{Intro to Programming Methods}
+\item{Decidability and Tractability}
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+\begin{itemize}
+\item{Intro to Algorithms}
+\item{Linear Algebra}
+\end{itemize}
+\end{minipage}
+\vspace{5mm}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills \& Abilities}
+
+\begin{tabularx}{\textwidth}{lX}
+    \bfseries{Computer Languages}   &  Java, C, C++, Objective-C, Swift, Python,
+    SQL \\
+    \bfseries{Technologies \& Platforms}   &  Android, iOS, libGDX (game development
+    framework) \\
+    \bfseries{Operating Sysems}   &  Linux, OS X \\
+    \bfseries{Tools}   &  Vim, Git, SVN, Terminal, Xcode, Android Studio, Inkscape,
+    Eclipse, \LaTeX \\
+\end{tabularx}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience \& Projects}
+
+\begin{rSubsection}{Intern at Aspera}{June 2014 - September 2014}{iOS Developer}{Emeryville, CA}
+\item Brought company's main app, Faspex, to an iOS 7 release. Involved working across
+    a large code base, and implementing bug fixes and enhancements (mainly in the
+    realms of UI and video encoding).
+\item Developed two sample applications in Swift to demonstrate proper use of Aspera's iPhone
+    SDK.
+\item Created a Share Extension in Swift that transfers data of any UTI using Faspex.
+\item Developed a Document/File Provider Extension in Swift that
+    lets other apps access files stored by Faspex.
+\item Applied constraints to existing storyboards to make them suitable for all
+    screen sizes (including iPhone 6).
+\item Also... implemented an Oauth + SAML flow; researched and tried Swift/Objective-C
+    documentation tools (doxygen, headerdoc, appledoc, jazzy); touched on Core Data, file
+    coordination, and iCloud integration.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{OmNotify - goo.gl/r48e60}{Summer 2013}{Founder \& Developer}{California}
+\item An Android Application that makes, augments, edits, and stores notifications.
+\item Notifications can be made with custom vibrations, alarms, reminders, and schedules.
+\item Notifications with alarms and vibrations can be sent via SMS to other phones.
+\item Notifications can be edited, and are stored in a viewable archive (backed by
+    SQL database).
+\item Also a fully functioning SMS client that can setup scheduled/automated SMS messages.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Stairs (the game)}{January 2014 - Present}{Developer}{California}
+\item An original "infinite stepper" game with 8 game modes,
+    5 level types, and custom music and icons.
+\item Created using the Java libGDX framework. Will be available for iOS, Android,
+    and Desktop.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{GoogleJump Mentorship Program}{Summer 2014}{Participant}{California}
+\item Worked with 2 other participants and a Google engineer mentor to create Aux,
+    an Android app that utilizes the Places and Location APIs in order to smartly
+    and automatically toggle various phone settings.
+\item Aux supports custom profiles that dictate how the phone behaves
+    under certain actions and/or locations.
+\end{rSubsection}
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Additional Information}
+
+Lifeguard, Red Cross and CPR Certified, Basketball Coach, Slader Online Math Tutor
+
+\end{rSection}
+
+\end{document}
