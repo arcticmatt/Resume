@@ -4,7 +4,7 @@
 
 ## Matt Lim
 
-*Contact*: (925) 639-4576. mlim@fb.com. https://github.com/arcticmatt
+*Contact*: (925) 639-4576. mattlim33@gmail.com. https://github.com/arcticmatt
 
 ### School
 
