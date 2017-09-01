@@ -15,7 +15,7 @@ TA for [EE150](https://digitalventures.caltech.edu/), [CS156a](https://work.calt
 
 ### Work Experience
 
-**Intern@Facebook**  *Summer 2016*. Worked with the CRM Graph team to extend and optimize machine learning pipelines, improving internal usage of Facebook's business graph. Used Python and Hive to integrate logistic regression into data processing pipelines.
+**Intern@Facebook**  *Summer 2016*. Worked with the CRM Graph team to extend and optimize machine learning pipelines, improving internal usage of Facebook's business graph using Python and Hive.
 
 **Contractor@WinnersView**  *Spring 2016*. Discussed with peers and higherups to formulate captivating, data-centered sports stories. Performed data analysis in R to determine the statistical support for an assigned story.
 
